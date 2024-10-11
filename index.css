@@ -344,19 +344,27 @@ nav {
   padding: 0;
   margin: 0;
 }
+.a_social {
+  width: 20px;
+  height: 20px;
+  margin-top: 10px;
+  border: 0;
+  background-color: white;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 
-.a_hover:hover {
+}
+
+.a_social:hover {
   border-radius: 5px;
   color: silver;
   background-color: #fff;
   transition: background-color 0.5s ease;
 }
 
-.a_sociai:hover {
-  width: 15px;
-  height: 15px;
-  cursor: pointer;
-}
+
 .footer-menu {
   width: 100%;
   height: 24px;

@@ -37,16 +37,13 @@
             career?
           </p>
           <form id="emailForm" action="/submit-email" method="post">
-            <label for="email"></label>
             <input
               class="input-email"
               type="email"
               id="email"
-              name="email"
               placeholder="Email"
               pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
-              maxlength="50"
-              required=""
+              maxlength="80"
             />
             <button class="button_join" type="submit">
               Join <img src="img/CaretRight.png" alt="" />
@@ -69,11 +66,11 @@
                 Read more <img src="./img/Vector.png" alt="" />
               </button>
             </div>
+            
           </li>
           <li class="card">
             <div class="collor-field collor-field-LightBlue"></div>
             <div class="card-content">
-              <!-- Заголовок -->
               <h4>MuseScore</h4>
               <p class="text-in-card">
                 Create, play back, and print sheet music with free open source
@@ -112,26 +109,21 @@
       </section>
       <section class="section-three">
         <div class="social-icons">
-          <button class="social-button">
-            <a class="a_social" href="https://www.instagram.com/"
-              ><img src="./img/Socials.png" alt="Instagram"
-            /></a>
-          </button>
-          <button class="social-button">
-            <a class="a_social" href="https://web.telegram.org/k/"
-              ><img src="./img/Telegram.png" alt="Telegram"
-            /></a>
-          </button>
-          <button class="social-button">
-            <a class="a_social" href="https://vk.com/"
-              ><img src="./img/Socials 3.png" alt="VK"
-            /></a>
-          </button>
-          <button class="social-button">
-            <a class="a_social" href="https://www.facebook.com/"
-              ><img src="./img/facebook.png" alt="facebook"
-            /></a>
-          </button>
+          <a class="a_social" href="https://www.instagram.com/"
+            ><img src="./img/Socials.png" alt="Instagram"
+          /></a>
+
+          <a class="a_social" href="https://web.telegram.org/k/"
+            ><img src="./img/Telegram.png" alt="Telegram"
+          /></a>
+
+          <a class="a_social" href="https://vk.com/"
+            ><img src="./img/Socials 3.png" alt="VK"
+          /></a>
+
+          <a class="a_social" href="https://www.facebook.com/"
+            ><img src="./img/facebook.png" alt="facebook"
+          /></a>
         </div>
 
         <p class="text-section-three">
@@ -163,6 +155,7 @@
         </ul>
       </nav>
     </footer>
+    <!-- Скрипт для поля Email -->
     <script src="./index.js"></script>
   </body>
 </html>
